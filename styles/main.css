@@ -1,0 +1,19 @@
+.h2-aboutus {
+    text-align: center;
+}
+
+.aboutus-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: antiquewhite;
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+
+.aboutus-text {
+    background-color: aliceblue;
+    height: 150px;
+    padding: 5px 5px;
+    margin: 20px 20px;
+}
