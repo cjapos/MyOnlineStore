@@ -457,6 +457,9 @@ cursor: pointer;
     padding: 20px 20px;
 }
 
+
+/*Contact Styles*/
+
 .main-container-contact {
     display: flex;
     column-gap: 10px;
@@ -477,6 +480,9 @@ cursor: pointer;
     flex: 1;
     text-align: center;
 }
+
+/*Footer Styles*/
+
 
 #footer {
     text-align: center;
