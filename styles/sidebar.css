@@ -15,7 +15,7 @@
         .container {
             margin-top: 90px;
             border-radius: 50px;
-            background-color: rgb(236, 236, 236);
+            background-color: rgb(254, 194, 255);
             width: 70px;
             padding-left: 10px;
             padding-right: 20px;
@@ -23,6 +23,7 @@
 
         .container:hover {
             background-color: violet;
+            box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
         }
             
 
@@ -45,12 +46,14 @@
         }
 
         button:hover {
-            color: aliceblue;
+            color: rgb(0, 0, 0);
+            box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
             
         }
 
         button:active {
             background-color: rgb(183, 89, 183);
+            color: whitesmoke;
         }
         
         body {

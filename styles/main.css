@@ -1,19 +1,493 @@
+/* About US "STYLES" */
+
 .h2-aboutus {
     text-align: center;
 }
 
-.aboutus-text-container {
+.aboutus-text-main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: antiquewhite;
     column-gap: 5px;
     row-gap: 5px;
+    border-radius: 10px;
+    padding-bottom: 20px;
 
 }
 
-.aboutus-text {
+.aboutus-text-container {
     background-color: aliceblue;
-    height: 150px;
-    padding: 5px 5px;
+    font-size: 15px;
+    align-items: center;
+    padding: 10px 5px;
     margin: 20px 20px;
+    border-radius: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.aboutus-text-container:hover {
+    box-shadow: 5px 4px 10px rgba(157, 0, 162, 0.5);
+}
+
+/* J-Lou's Handmade Bouquet Logo "STYLES" */
+
+
+.main-container-logo {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 10px;
+    background-color: antiquewhite;
+    margin: 0px 0px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+
+}
+
+.img-logo-container {
+    background-color: rgb(220, 175, 175);
+    margin: 15px 0px 15px 10px;
+    border-radius: 20px;
+    z-index: 101;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+
+.img-logo-container:hover {
+    box-shadow: 5px 4px 10px rgba(157, 0, 162, 0.5);
+}
+
+
+.img-logo {
+box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+border-radius: 115px;
+height: 230px;
+width: 230px;
+object-fit: cover;
+margin: 10px 10px 0px 30px;
+cursor: pointer;
+}
+
+.img-logo:hover {
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    border-radius: 220px;
+    height: 245px;
+    width: 245px;
+    object-fit: cover;
+    margin: 5px 0px 0px 20px;
+}
+
+.img-logo:active {
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    border-radius: 320px;
+    height: 545px;
+    width: 545px;
+    object-fit: cover;
+    margin: 5px 0px 0px 20px;
+}
+
+.text-logo-container {
+  background-color: rgb(220, 175, 175);
+  margin: 15px 10px;
+  border-radius: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+}
+
+.text-logo-container:hover {
+    box-shadow: 5px 4px 10px rgba(157, 0, 162, 0.5);
+}
+
+.text-logo {
+    padding: 20px 20px;
+}
+
+.text-official-logo {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: small;
+    bottom: 0;
+    left: 0;
+
+}
+
+/* OWNER "STYLES" */
+
+
+.main-container-ownwer {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 10px;
+    background-color: antiquewhite;
+    margin: 0px 0px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+
+}
+
+.img-owner-container {
+    background-color: rgb(220, 175, 175);
+    margin: 15px 0px 15px 10px;
+    border-radius: 20px;
+    z-index: 101;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+
+.img-owner-container:hover {
+    box-shadow: 5px 4px 10px rgba(157, 0, 162, 0.5);
+}
+
+
+.img-owner {
+box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+border-radius: 115px;
+height: 230px;
+width: 230px;
+object-fit: cover;
+margin: 10px 10px 0px 30px;
+cursor: pointer;
+}
+
+.img-owner:hover {
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    border-radius: 220px;
+    height: 245px;
+    width: 245px;
+    object-fit: cover;
+    margin: 5px 0px 0px 20px;
+}
+
+.img-owner:active {
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    border-radius: 320px;
+    height: 545px;
+    width: 545px;
+    object-fit: cover;
+    margin: 5px 0px 0px 20px;
+}
+
+.text-owner-container {
+  background-color: rgb(220, 175, 175);
+  margin: 15px 10px;
+  border-radius: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+}
+
+.text-owner-container:hover {
+    box-shadow: 5px 4px 10px rgba(157, 0, 162, 0.5);
+}
+
+.text-owner {
+    padding: 20px 20px;
+}
+
+.text-official-owner {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: small;
+
+}
+
+
+
+/* Products "STYLES" */
+
+
+.h2-products {
+    text-align: center;
+}
+
+.main-container-product {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    column-gap: 10px;
+    background-color: antiquewhite;
+    margin: 0px 0px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+
+}
+
+.img-product-container {
+    background-color: rgb(220, 175, 175);
+    margin: 15px 0px 15px 10px;
+    border-radius: 20px;
+    z-index: 101;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+
+.img-product-container:hover {
+    box-shadow: 5px 4px 10px rgba(157, 0, 162, 0.5);
+}
+
+
+.img-product {
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    border-radius: 115px;
+    height: 230px;
+    width: 230px;
+    object-fit: cover;
+    margin: 10px 10px 0px 30px;
+    cursor: pointer;
+    }
+    
+.img-product:hover {
+     box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+     border-radius: 220px;
+     height: 245px;
+     width: 245px;
+     object-fit: cover;
+     margin: 5px 0px 0px 20px;
+}
+    
+.img-product:active {
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    border-radius: 0px;
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+    margin: 5px 0px 0px 20px;
+    display: block;
+}
+
+.text-product-container {
+    background-color: rgb(220, 175, 175);
+    margin: 15px 10px;
+    border-radius: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+}
+
+.text-product-container:hover {
+    box-shadow: 5px 4px 10px rgba(157, 0, 162, 0.5);
+}
+
+.text-product {
+    padding: 20px 20px ;
+}
+
+.text-official-product-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: small;
+    justify-items: center;
+
+}
+
+/* Sunflower "STYLES" */
+
+
+.main-container-sunflower {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 10px;
+    background-color: antiquewhite;
+    margin: 0px 0px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+
+}
+
+.img-sunflower-container {
+    background-color: rgb(220, 175, 175);
+    margin: 15px 0px 15px 10px;
+    border-radius: 20px;
+    z-index: 101;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+
+.img-sunflower-container:hover {
+    box-shadow: 5px 4px 10px rgba(157, 0, 162, 0.5);
+}
+
+
+.img-sunflower{
+box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+border-radius: 115px;
+height: 230px;
+width: 230px;
+object-fit: cover;
+margin: 10px 10px 0px 30px;
+cursor: pointer;
+}
+
+.img-sunflower:hover {
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    border-radius: 220px;
+    height: 245px;
+    width: 245px;
+    object-fit: cover;
+    margin: 5px 0px 0px 20px;
+}
+
+.img-sunflower:active {
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    border-radius: 320px;
+    height: 545px;
+    width: 545px;
+    object-fit: cover;
+    margin: 5px 0px 0px 20px;
+}
+
+.text-sunflower-container {
+  background-color: rgb(220, 175, 175);
+  margin: 15px 10px;
+  border-radius: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+}
+
+.text-sunflower-container:hover {
+    box-shadow: 5px 4px 10px rgba(157, 0, 162, 0.5);
+}
+
+.text-sunflower {
+    padding: 20px 20px;
+}
+
+.text-official-sunflower {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: small;
+
+}
+
+
+
+/* Tulips & Roses "STYLES" */
+
+.main-container-tnr {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 10px;
+    background-color: antiquewhite;
+    margin: 0px 0px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+
+}
+
+.img-tnr-container {
+    background-color: rgb(220, 175, 175);
+    margin: 15px 0px 15px 10px;
+    border-radius: 20px;
+    z-index: 101;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+
+.img-tnr-container:hover {
+    box-shadow: 5px 4px 10px rgba(157, 0, 162, 0.5);
+}
+
+
+.img-tnr{
+box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+border-radius: 115px;
+height: 230px;
+width: 230px;
+object-fit: cover;
+margin: 10px 10px 0px 30px;
+cursor: pointer;
+}
+
+.img-tnr:hover {
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    border-radius: 220px;
+    height: 245px;
+    width: 245px;
+    object-fit: cover;
+    margin: 5px 0px 0px 20px;
+}
+
+.img-tnr:active {
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+    border-radius: 320px;
+    height: 545px;
+    width: 545px;
+    object-fit: cover;
+    margin: 5px 0px 0px 20px;
+}
+
+
+.text-official-tnr-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: small;
+    justify-items: center;
+
+}
+
+.text-tnr-container {
+    background-color: rgb(220, 175, 175);
+    margin: 15px 10px;
+    border-radius: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.5);
+}
+
+.text-tnr-container:hover {
+    box-shadow: 5px 4px 10px rgba(157, 0, 162, 0.5);
+}
+
+.text-tnr {
+    padding: 20px 20px;
+}
+
+.main-container-contact {
+    display: flex;
+    column-gap: 10px;
+    background-color: antiquewhite;
+    margin: 0px 0px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+#text-info {
+    color: red;
+}
+
+#contact-info {
+    flex: 1;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 15px;
+    /* Height of the footer*/
+    height: 40px;
+    background: rgb(203, 170, 197);
+    z-index: 1000;
+    margin: 0px -150px;
 }
